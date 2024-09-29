@@ -27,7 +27,6 @@ img{
 .main{
     display: grid;
     gap: 32px;
-    /* width: calc(100% - 32px); */
     padding: 32px 16px 64px 16px;
     width: 100%;
 }
@@ -81,26 +80,6 @@ img{
     font-weight: 500;
     letter-spacing: -2px;
 }
-.accent-yellow{
-    color: var(--Yellow-500);
-}
-.accent-purple{
-    color: var(--Purple-500);
-}
-.text-italic{
-    font-style: italic;
-}
-.img-star{
-    margin-bottom: 8px;
-    width: 192px;
-    height: auto;
-}
-.text{
-    width: 100%;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 400;
-}
 .subtitle{
     font-size: 32px;
     line-height: 28px;
@@ -113,7 +92,35 @@ img{
     font-weight: 500;
     letter-spacing: -2px;
 }
+.text{
+    width: 100%;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.accent-yellow{
+    color: var(--Yellow-500);
+}
+.accent-purple{
+    color: var(--Purple-500);
+}
+.text-italic{
+    font-style: italic;
+}
+.text-padding{
+    padding: 0 14.5px;
+}
+.title-margin-15{
+    margin-bottom: 15px;
+}
+.img-star{
+    margin-bottom: 8px;
+    width: 192px;
+    height: auto;
+}
 .img-social{
+    width: auto;
+    height: 66.54px;
     margin-bottom: 16px;
     filter: drop-shadow(-10px 11px 24px hsla(284, 65%, 29%, 0.05));
 }
@@ -123,19 +130,15 @@ img{
     height: auto;
     align-self: start;
 }
-.text-padding{
-    padding: 0 14.5px;
-}
 .img-schedule{
+    width: 99%;
+    height: 100%;
     margin: 24px 0;
 }
 .img-growth{
     margin-bottom: 40px;
     width: auto;
     height: 200px;
-}
-.title-margin-15{
-    margin-bottom: 15px;
 }
 .img-avatar{
     margin-top: 24px;
