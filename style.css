@@ -72,6 +72,7 @@ img{
     width: 100%;
     border-radius: 10px;
     background-color: var(--White);
+    overflow: hidden;
 }
 .card-title{
     padding: 40px 32px;
@@ -287,5 +288,61 @@ img{
     .img-avatar{
         margin: 0;
         align-self: center;
+    }
+}
+@media(min-width: 1440px){
+    .main{
+        grid-template-columns: 256px 256px 256px 256px;
+        grid-template-rows: 324px 59px 156px 246px;
+        grid-template-areas: 
+            "create-content social-media-speed social-media-speed schedule-posts"
+            "create-content multiple-platforms consistent-schedule schedule-posts"
+            "write-content-ai multiple-platforms consistent-schedule schedule-posts"
+            "write-content-ai audience-growth grow-followers grow-followers";
+        padding: 83px calc( calc(100% - 1120px) / 2) 65px calc( calc(100% - 1120px) / 2);
+    }
+    .card-vertical-space-between{
+        justify-content: space-between;
+    }
+    .card-flex-md-space-between{
+        flex-direction: column;
+    }
+    .card-flex-md-center{
+        gap: 0;
+        justify-content: space-between;
+    }
+    .card-padding-y{
+        padding: 32px;
+        align-items: start;
+        text-align: left;
+    }
+    .title{
+        font-size: 62px;
+        line-height: 58px;
+    }
+    .subtitle{
+        font-size: 40px;
+        line-height: 36px;
+        letter-spacing: -1px;
+    }
+    .subtitle-2{
+        font-size: 32px;
+        line-height: 28px;
+    }
+    .text-208{
+        padding-right: 1px;
+    }
+    .text-257{
+        padding-right: 1px;
+    }
+    .img-social{
+        max-width: 316.08px;
+        width: 316.08px;
+        height: 66.54px;
+    }
+    .img-schedule{
+        max-width: 357.3px;
+        width: 357.3px;
+        height: 318.82px;
     }
 }
